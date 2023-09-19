@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #604829;
+}
+
+.logo {
+    height: 50px;
+    position: relative;
+    left: 15%;
+}
+
+.link1 {
+    position: absolute;
+    text-align: right;
+    right: 15%;
+    top: 28%;
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    color: #c4a47c;
+    padding: 0 10px;
+    text-shadow: 2px 4px 2px #000000;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url('../img/parallax-imagem1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 70px;
+    padding-top: 80px;
+}
+
+.texto {
+    background-color: #fffcf8;
+    height: 75vh;
+    padding-top: 60px;
+}
+
+.texto h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+    text-align: center;
+    margin: 50px 10px 30px 10px;
+    font-size: 18px;
+    word-spacing: 3px;
+}
+
+.texto p {
+    max-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 50px;
+    line-height: 40px;
+    color: #666;
+}
+
+.img-para h3 {
+    width: 250px;
+    height: 25px;
+    background-color: #604829;
+    color: #fff;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-para {
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 {
+    background-image: url('../img/parallax-imagem2.jpg');
+}
+
+.img2 {
+    background-image: url('../img/parallax-imagem3.jpg');
+}
+
+.contatos {
+    height: 100vh;
+    padding-top: 95px;
+    background-image: url('../img/parallax-imagem4.png');
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
+    padding: 20px;
+}
+
+.contatos h2 {
+    width: 400px;
+    padding: 10px;
+    background-color: #604829;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+
+.box-contatos {
+    width: 400px;
+    padding: 10px;
+    background-color: #604829;
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 30px;
+    margin: 0 auto;
+    text-shadow: 2px 4px 2px #000000;
+}
+
+.horarios {
+    height: 75vh;
+    background-image: url('../img/cafeteria.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+}
+
+.horarios h2 {
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.horarios ul {
+    color: #fff;
+    list-style: none;
+    width: 500px;
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.horarios li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li h3, p, span {
+    flex-basis: 75px;
+}
+
+.horarios li div {
+    width: 60%;
+    height: 1px;
+    background-color: #ACACAC;
+}
+
+.rodape {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 20px 0;
+}
+
+.gotop {
+    position: absolute;
+    right: 30px;
+    bottom: 80px;
+}
+
+span {
+    color: #c4a47c;
+}
